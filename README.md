@@ -58,96 +58,96 @@
 
 ### 🔥 Core Grafana Ecosystem
 
-- **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+- **[Grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
   **The de facto standard for open-source operational dashboards**, AGPL-3.0 licensed. Connects to 100+ data sources including Prometheus, Loki, Tempo, Elasticsearch, and PostgreSQL. Rich visualization library with alerting, annotations, and templating. Best for unified operational dashboards.
 
-- **[Grafana Loki](https://github.com/grafana/loki)** [![GitHub stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)  
+- **[Grafana Loki](https://github.com/grafana/loki)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)  
   **Horizontally scalable log aggregation system**, AGPL-3.0 licensed. Designed to be highly cost-effective by indexing labels rather than full text. Integrates seamlessly with Grafana for querying and visualization.
 
-- **[Grafana Tempo](https://github.com/grafana/tempo)** [![GitHub stars](https://img.shields.io/github/stars/grafana/tempo?style=social&color=white)](https://github.com/grafana/tempo/stargazers)  
+- **[Grafana Tempo](https://github.com/grafana/tempo)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/tempo?style=social&color=white)](https://github.com/grafana/tempo/stargazers)  
   **High-scale distributed tracing backend**, AGPL-3.0 licensed. Requires only object storage to operate and integrates with Grafana, Loki, and Prometheus.
 
-- **[Grafana Mimir](https://github.com/grafana/mimir)** [![GitHub stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
+- **[Grafana Mimir](https://github.com/grafana/mimir)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
   **Scalable long-term metrics storage**, AGPL-3.0 licensed. Provides Prometheus-compatible metric ingestion with multi-tenancy, high availability, and massive horizontal scale.
 
-- **[Grafana Pyroscope](https://github.com/grafana/pyroscope)** [![GitHub stars](https://img.shields.io/github/stars/grafana/pyroscope?style=social&color=white)](https://github.com/grafana/pyroscope/stargazers)  
+- **[Grafana Pyroscope](https://github.com/grafana/pyroscope)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/pyroscope?style=social&color=white)](https://github.com/grafana/pyroscope/stargazers)  
   **Continuous profiling platform**, AGPL-3.0 licensed. Offers CPU, memory, and I/O profiling with flame graphs directly inside Grafana.
 
-- **[Grafana Alloy](https://github.com/grafana/alloy)** [![GitHub stars](https://img.shields.io/github/stars/grafana/alloy?style=social&color=white)](https://github.com/grafana/alloy/stargazers)  
+- **[Grafana Alloy](https://github.com/grafana/alloy)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/alloy?style=social&color=white)](https://github.com/grafana/alloy/stargazers)  
   **OpenTelemetry collector distribution**, Apache-2.0 licensed. Vendor-neutral telemetry collector providing pipeline processing for metrics, logs, and traces.
 
 ---
 
 ### 📈 Metrics & Monitoring Databases
 
-- **[Netdata](https://github.com/netdata/netdata)** [![GitHub stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)  
+- **[Netdata](https://github.com/netdata/netdata)** [![GitHub_Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)  
   **Real-time performance and health monitoring**, GPL-3.0 licensed. Provides per-second granularity with zero-configuration auto-discovery for servers and containers.
 
-- **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
+- **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
   **The CNCF de facto standard for metrics monitoring**, Apache-2.0 licensed. Pull-based time-series metrics collection with PromQL and alerting capabilities.
 
-- **[Thanos](https://github.com/thanos-io/thanos)** [![GitHub stars](https://img.shields.io/github/stars/thanos-io/thanos?style=social&color=white)](https://github.com/thanos-io/thanos/stargazers)  
+- **[Thanos](https://github.com/thanos-io/thanos)** [![GitHub_Stars](https://img.shields.io/github/stars/thanos-io/thanos?style=social&color=white)](https://github.com/thanos-io/thanos/stargazers)  
   **Highly available Prometheus setup with long-term storage**, Apache-2.0 licensed. Provides global query view across multiple Prometheus clusters and seamless S3 storage backup.
 
-- **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)  
+- **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub_Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)  
   **High-performance time-series database**, Apache-2.0 licensed. Drop-in Prometheus replacement with higher data compression and lower memory footprints.
 
-- **[InfluxDB](https://github.com/influxdata/influxdb)** [![GitHub stars](https://img.shields.io/github/stars/influxdata/influxdb?style=social&color=white)](https://github.com/influxdata/influxdb/stargazers)  
+- **[InfluxDB](https://github.com/influxdata/influxdb)** [![GitHub_Stars](https://img.shields.io/github/stars/influxdata/influxdb?style=social&color=white)](https://github.com/influxdata/influxdb/stargazers)  
   **Scalable time-series database**, MIT licensed. Purpose-built engine for high-cardinality operational metrics, IoT measurements, and real-time events.
 
 ---
 
 ### 🔍 Integrated Observability Platforms
 
-- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
+- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
   **Native OpenTelemetry observability platform**, MIT/Apache-2.0 licensed. Single-pane application for logs, metrics, and traces as an open-source Datadog alternative.
 
-- **[OpenObserve](https://github.com/openobserve/openobserve)** [![GitHub stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)  
+- **[OpenObserve](https://github.com/openobserve/openobserve)** [![GitHub_Stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)  
   **Cloud-native observability engine**, AGPL-3.0 licensed. Single binary log, metric, and trace search engine with up to 140x lower storage costs.
 
-- **[Uptrace](https://github.com/uptrace/uptrace)** [![GitHub stars](https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white)](https://github.com/uptrace/uptrace/stargazers)  
+- **[Uptrace](https://github.com/uptrace/uptrace)** [![GitHub_Stars](https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white)](https://github.com/uptrace/uptrace/stargazers)  
   **Open-source APM tool**, BSLA/AGPL-3.0 licensed. Uses OpenTelemetry to parse traces and metrics into pinpoint dashboard insights.
 
 ---
 
 ### 📊 Business Intelligence & Operational Dashboards
 
-- **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+- **[Apache Superset](https://github.com/apache/superset)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
   **Modern enterprise business intelligence platform**, Apache-2.0 licensed. Feature-rich SQL editor, interactive dashboard builder, and wide SQL data source support.
 
-- **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+- **[Metabase](https://github.com/metabase/metabase)** [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
   **Easy visual analytics and reporting tool**, AGPL-3.0 licensed. Allows team members to build charts and dashboard walls without knowing SQL.
 
-- **[Redash](https://github.com/getredash/redash)** [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
+- **[Redash](https://github.com/getredash/redash)** [![GitHub_Stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
   **SQL-centric operational reporting tool**, BSD-2-Clause licensed. Connect and query any data source, visualize results, and share interactive dashboards.
 
-- **[Appsmith](https://github.com/appsmithorg/appsmith)** [![GitHub stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)  
+- **[Appsmith](https://github.com/appsmithorg/appsmith)** [![GitHub_Stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)  
   **Open-source low-code framework**, Apache-2.0 licensed. Build internal operational dashboards and admin panels connecting to databases or REST APIs.
 
 ---
 
 ### ⚡ Distributed Tracing & Telemetry Collection
 
-- **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
+- **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
   **Vendor-neutral proxy for telemetry data**, Apache-2.0 licensed. Receives, processes, and exports telemetry (metrics, traces, logs) to Grafana, Prometheus, and vendor endpoints.
 
-- **[Jaeger Tracing](https://github.com/jaegertracing/jaeger)** [![GitHub stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)  
+- **[Jaeger Tracing](https://github.com/jaegertracing/jaeger)** [![GitHub_Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)  
   **CNCF open-source end-to-end distributed tracing**, Apache-2.0 licensed. Monitor complex microservice architecture transactions and latency bottlenecks.
 
-- **[Zipkin](https://github.com/openzipkin/zipkin)** [![GitHub stars](https://img.shields.io/github/stars/openzipkin/zipkin?style=social&color=white)](https://github.com/openzipkin/zipkin/stargazers)  
+- **[Zipkin](https://github.com/openzipkin/zipkin)** [![GitHub_Stars](https://img.shields.io/github/stars/openzipkin/zipkin?style=social&color=white)](https://github.com/openzipkin/zipkin/stargazers)  
   **Distributed tracing framework**, Apache-2.0 licensed. Helps gather timing data needed to troubleshoot latency problems in microservice architectures.
 
 ---
 
 ### 🛡️ Infrastructure & Network Dashboarding
 
-- **[Zabbix](https://github.com/zabbix/zabbix)** [![GitHub stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers)  
+- **[Zabbix](https://github.com/zabbix/zabbix)** [![GitHub_Stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers)  
   **Enterprise-class network and server monitoring platform**, AGPL-3.0 licensed. Real-time metrics collection, threshold alerting, and customizable dashboard widgets.
 
-- **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white)](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers)  
+- **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white)](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers)  
   **Visualization user interface for OpenSearch**, Apache-2.0 licensed. Search and graph log analytics data with built-in security features.
 
-- **[Checkmk](https://github.com/Checkmk/checkmk)** [![GitHub stars](https://img.shields.io/github/stars/Checkmk/checkmk?style=social&color=white)](https://github.com/Checkmk/checkmk/stargazers)  
+- **[Checkmk](https://github.com/Checkmk/checkmk)** [![GitHub_Stars](https://img.shields.io/github/stars/Checkmk/checkmk?style=social&color=white)](https://github.com/Checkmk/checkmk/stargazers)  
   **Comprehensive IT infrastructure monitoring**, GPL-2.0 licensed. Automatic discovery of servers, applications, and networks with built-in Grafana data source plugins.
 
 ---
