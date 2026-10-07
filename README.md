@@ -1,299 +1,186 @@
-# Awesome-Managed-Operational-Dashboarding-Grafana
+<!-- Header Banner -->
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Managed Operational Dashboarding Grafana Banner" width="100%">
+</p>
 
-## Top Managed Operational Dashboarding (Grafana) Ecosystem
+# 📊 Awesome Managed Operational Dashboarding (Grafana) Ecosystem 🚀
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+**A curated list of top managed Grafana services, enterprise SaaS observability platforms, operational dashboarding tools, and open-source metrics/tracing/logging stacks.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+> *Focused on Managed Grafana, Observability Dashboards, Real-Time Operational Monitoring, Prometheus, OpenTelemetry & Self-Hosted Visualization.*
 
-*Focused on Managed Grafana, Observability Dashboards & Self-Hosted Visualization*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial managed dashboarding platforms** and **open-source projects** that visualize operational metrics, logs, and traces — from managed Grafana services to full observability platforms and self-hosted visualization stacks.
-
-
-
-**Examples** include AWS Managed Grafana, Grafana Cloud, Datadog, New Relic, Dynatrace, Honeycomb, Sumo Logic, Chronosphere, Coralogix, and Kibana (Elastic) (the category leaders).
-
-
-
-**Open-source emphasis**: Managed operational dashboarding is anchored by **Grafana** as the de facto open-source visualization platform, with **Grafana Loki** for logs, **Tempo** for traces, **Mimir** for metrics, and **Pyroscope** for profiling forming the LGTM stack. **Prometheus** provides the metrics backbone, **OpenTelemetry** delivers vendor-neutral instrumentation, and **Apache Superset** offers open-source BI dashboards. **SigNoz**, **OpenObserve**, and **Uptrace** provide integrated observability alternatives. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[AWS Managed Grafana](https://aws.amazon.com/grafana/)**  
-
-  **AWS's managed Grafana service** — fully managed Grafana with AWS data source integration . **SSO via IAM Identity Center and automatic scaling** . **Best for AWS-native Grafana** .
-
-
-
-- **[Grafana Cloud](https://grafana.com/products/cloud/)**  
-
-  **The commercial Grafana platform** — managed Grafana, Prometheus, Loki, Tempo, and Pyroscope . **Free tier available**; paid from $19/month . **The reference for managed Grafana** . **Best for Grafana users wanting managed infrastructure** .
-
-
-
-- **[Datadog](https://www.datadoghq.com/)**  
-
-  **The leading observability platform** — dashboards, metrics, logs, traces, and RUM . **The most comprehensive commercial observability platform** . **Best for full-stack observability** .
-
-
-
-- **[New Relic](https://newrelic.com/)**  
-
-  **Full-stack observability with dashboards** — APM, infrastructure, logs, and browser monitoring . **Best for application-centric observability** .
-
-
-
-- **[Dynatrace](https://www.dynatrace.com/)**  
-
-  **AI-powered observability** — automatic topology discovery and Davis AI for root cause analysis . **Best for enterprise observability** .
-
-
-
-- **[Honeycomb](https://www.honeycomb.io/)**  
-
-  **Observability for distributed systems** — high-cardinality event analysis . **Best for debugging complex microservices** .
-
-
-
-- **[Sumo Logic](https://www.sumologic.com/)**  
-
-  **Cloud-native observability** — logs, metrics, and security analytics . **Best for cloud-first organizations** .
-
-
-
-- **[Chronosphere](https://chronosphere.io/)**  
-
-  **Cloud-native observability platform** — metrics at scale with cost controls . **Best for high-scale metrics** .
-
-
-
-- **[Coralogix](https://coralogix.com/)**  
-
-  **Observability platform with streaming analytics** — logs, metrics, and traces . **Best for enterprise observability** .
-
-
-
-- **[Kibana (Elastic)](https://www.elastic.co/kibana/)**  
-
-  **Elastic's visualization platform** — dashboards for Elasticsearch data . **Best for Elastic ecosystem users** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Core Grafana Stack
-
-
-
-- **[Grafana](https://github.com/grafana/grafana)**  
-
-  **The de facto standard for open-source operational dashboards**, AGPL-3.0 licensed with **65,000+ GitHub stars** . **Connects to 100+ data sources** including Prometheus, Loki, Tempo, Elasticsearch, PostgreSQL, and more . **Rich visualization library with alerting, annotations, and templating** . **The reference implementation for operational dashboarding** . **Best for unified observability dashboards** .
-
-
-
-- **[Grafana Loki](https://github.com/grafana/loki)**  
-
-  **Horizontally scalable log aggregation**, AGPL-3.0 licensed with **24,000+ GitHub stars** . **Cost-effective log storage** — indexes labels, not full text . **Integrates with Grafana for visualization** . **The standard for Kubernetes log aggregation** . **Best for cloud-native log aggregation** .
-
-
-
-- **[Grafana Tempo](https://github.com/grafana/tempo)**  
-
-  **Distributed tracing backend**, AGPL-3.0 licensed with **4,000+ GitHub stars** . **Trace storage with Grafana integration** . **Integrates with Prometheus and Loki** . **Best for distributed tracing** .
-
-
-
-- **[Grafana Mimir](https://github.com/grafana/mimir)**  
-
-  **Scalable long-term metrics storage**, AGPL-3.0 licensed with **4,000+ GitHub stars** . **Prometheus-compatible with multi-tenancy** . **Best for enterprise metrics storage** .
-
-
-
-- **[Grafana Pyroscope](https://github.com/grafana/pyroscope)**  
-
-  **Continuous profiling platform**, AGPL-3.0 licensed . **CPU, memory, and I/O profiling** . **Correlates profiles with traces and metrics** . **Best for code-level performance analysis** .
-
-
-
-- **[Grafana Alloy](https://github.com/grafana/alloy)**  
-
-  **OpenTelemetry collector distribution**, Apache-2.0 licensed . **Vendor-neutral telemetry collection** . **Replaces Grafana Agent** . **Best for telemetry collection** .
-
-
-
-### Metrics & Monitoring
-
-
-
-- **[Prometheus](https://github.com/prometheus/prometheus)**  
-
-  **The de facto standard for metrics monitoring**, Apache-2.0 licensed with **55,000+ GitHub stars** . **Pull-based metrics collection with PromQL** . **The foundation for cloud-native observability** . **Best for Kubernetes and infrastructure monitoring** .
-
-
-
-- **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)**  
-
-  **High-performance, cost-effective time-series database**, Apache-2.0 licensed with **12,000+ GitHub stars** . **Prometheus-compatible with better performance and compression** . **Best for scalable metrics storage** .
-
-
-
-- **[Thanos](https://github.com/thanos-io/thanos)**  
-
-  **Highly available Prometheus with long-term storage**, Apache-2.0 licensed with **13,000+ GitHub stars** . **Global query view across Prometheus instances** . **Best for multi-cluster Prometheus** .
-
-
-
-- **[Netdata](https://github.com/netdata/netdata)**  
-
-  **Real-time performance and health monitoring**, GPL-3.0 licensed with **70,000+ GitHub stars** . **Per-second granularity with auto-discovery** . **Best for real-time infrastructure monitoring** .
-
-
-
-### Integrated Observability Platforms
-
-
-
-- **[SigNoz](https://github.com/SigNoz/signoz)**  
-
-  **Open-source observability platform**, Apache-2.0 licensed with **23,000+ GitHub stars** . **Logs, traces, and metrics in one application** — OpenTelemetry-native . **Best for unified observability** .
-
-
-
-- **[OpenObserve](https://github.com/openobserve/openobserve)**  
-
-  **Open-source observability platform**, AGPL-3.0 licensed with **15,000+ GitHub stars** . **Single binary for logs, metrics, and traces** . **140x lower storage costs** . **Best for cost-effective observability** .
-
-
-
-- **[Uptrace](https://github.com/uptrace/uptrace)**  
-
-  **Open-source APM and observability**, AGPL-3.0 licensed . **Distributed tracing, metrics, and logs** . **Best for cost-effective APM** .
-
-
-
-### Business Intelligence & Dashboards
-
-
-
-- **[Apache Superset](https://github.com/apache/superset)**  
-
-  **Open-source business intelligence platform**, Apache-2.0 licensed with **60,000+ GitHub stars** . **Rich visualization library with SQL Lab** . **Best for BI dashboards** .
-
-
-
-- **[Metabase](https://github.com/metabase/metabase)**  
-
-  **Open-source BI and analytics**, AGPL-3.0 licensed with **40,000+ GitHub stars** . **No-code question builder** . **Best for self-service analytics** .
-
-
-
-- **[Redash](https://github.com/getredash/redash)**  
-
-  **Open-source data visualization**, BSD-2-Clause licensed with **25,000+ GitHub stars** . **SQL-based dashboards** . **Best for SQL-driven dashboards** .
-
-
-
-- **[Grafana** — Already listed. **Can serve as BI dashboarding layer** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **OpenTelemetry** — Vendor-neutral instrumentation .
-
-- **Jaeger** — Distributed tracing platform .
-
-- **Zipkin** — Distributed tracing system .
-
-- **Kibana** — Elastic's visualization (with OpenSearch Dashboards fork) .
-
-- **OpenSearch Dashboards** — OpenSearch visualization .
-
-- **Chronograf** — InfluxData visualization .
-
-- **Netdata Cloud** — Managed Netdata .
-
-- **Zabbix** — Infrastructure monitoring with dashboards .
-
-- **Checkmk** — IT monitoring with dashboards .
-
-- **Icinga** — Monitoring with Grafana integration .
-
-
-
-**Frameworks for building custom operational dashboarding solutions**: Combine **Grafana** for the most comprehensive open-source dashboarding platform . Use **Prometheus** for metrics collection and **Loki** for logs . Deploy **Tempo** for distributed tracing and **Pyroscope** for continuous profiling . Integrate **Mimir** or **VictoriaMetrics** for scalable metrics storage . Choose **Apache Superset** or **Metabase** for business intelligence dashboards . Use **SigNoz** or **OpenObserve** for integrated observability . Deploy **Grafana Alloy** for telemetry collection . Note that true managed dashboarding with global infrastructure, automatic scaling, and vendor-supported SLAs (Grafana Cloud, Datadog, Dynatrace) remains primarily commercial territory; open-source stacks provide strong visualization, metrics, and observability foundations that require integration for complete dashboarding platforms.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Operational dashboarding platforms handle sensitive infrastructure and application telemetry. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **Grafana has undergone licensing changes** — the core is AGPL-3.0, and some enterprise features are under a commercial license. Verify licensing against your use case before committing .
-
-- **Storage costs dominate observability** — Loki's label-based indexing significantly reduces costs compared to full-text log indexing . OpenObserve claims 140x lower storage costs than Elasticsearch .
-
-- **Dashboard sprawl is real** — without governance, organizations accumulate hundreds of unused dashboards. Implement naming conventions, folders, and ownership .
-
-- The open-source ecosystem provides strong visualization, metrics, and observability foundations, but **managed infrastructure, automatic scaling, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+**Last updated: October 2026** 📅
 
 ---
 
+## 📑 Table of Contents
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [🔥 Core Grafana Ecosystem](#-core-grafana-ecosystem)
+  - [📈 Metrics & Monitoring Databases](#-metrics--monitoring-databases)
+  - [🔍 Integrated Observability Platforms](#-integrated-observability-platforms)
+  - [📊 Business Intelligence & Operational Dashboards](#-business-intelligence--operational-dashboards)
+  - [⚡ Distributed Tracing & Telemetry Collection](#-distributed-tracing--telemetry-collection)
+  - [🛡️ Infrastructure & Network Dashboarding](#️-infrastructure--network-dashboarding)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#️-disclaimer)
+- [📈 Star History](#-star-history)
 
+---
 
-**Made for SREs, DevOps engineers, and organizations seeking operational dashboarding sovereignty.**  
+## ☁️ SaaS & Hosted Platforms
 
-Let's make managed operational dashboarding more open, transparent, and cost-effective.
+> **Market Analysis & Size**: The Global Observability and Operational Dashboarding market is estimated at **$5.2 Billion in 2026** and is projected to reach **$11.8 Billion by 2032** (CAGR ~14.6%).  
+> **Market Structure**: The sector is **moderately fragmented**. While legacy giants (Datadog, Dynatrace, New Relic) command substantial market share, specialized managed Grafana platforms and open-telemetry native SaaS vendors maintain strong competitive positions across enterprise, cloud-native, and hybrid infrastructure segments.
+
+| Platform / Product | Company Size / Valuation | Starting Paid Tier Pricing | Free Tier / Trial Limit | Key Highlights & Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Datadog](https://www.datadoghq.com/)** | ~$42 Billion Valuation (Public) | $15 / host / month (Infrastructure) | 14-Day Free Trial (Full features, up to 5 hosts) | Comprehensive full-stack observability, cloud monitoring, RUM, and automated log analysis. |
+| **[Dynatrace](https://www.dynatrace.com/)** | ~$15 Billion Valuation (Public) | $0.08 / hour for 16 GiB host ($58/mo host equiv) | 15-Day Free Trial (No credit card required) | AI-powered enterprise observability (Davis AI), automatic topology discovery, and APM. |
+| **[New Relic](https://newrelic.com/)** | ~$6.5 Billion Valuation (Acquired/Private) | $49 / core user / month + $0.30/GB ingest over 100GB | Free Forever Tier: 100 GB/month data ingest + 1 Full User | Full-stack observability platform with all-in-one data ingestion and APM dashboards. |
+| **[Grafana Cloud](https://grafana.com/products/cloud/)** | ~$6.0 Billion Valuation (Grafana Labs) | $29 / month (Pro Plan starting tier) | Free Forever Tier: 10k metrics, 50GB logs, 50GB traces, 30GB profiles, 3 users | Managed Grafana reference platform with hosted Prometheus, Loki, Tempo, and Pyroscope. |
+| **[Elastic (Kibana Cloud)](https://www.elastic.co/kibana/)** | ~$5.8 Billion Valuation (Public) | $95 / month (Standard Cloud Tier) | 14-Day Free Trial (Elastic Cloud deployment) | Search-powered visualization & operational dashboards for Elasticsearch data streams. |
+| **[AWS Managed Grafana](https://aws.amazon.com/grafana/)** | ~$1.8 Trillion Parent (Amazon) | $9 / active editor license / month | 90-Day Free Trial (Up to 5 active editor licenses/month) | AWS-native fully managed Grafana with IAM Identity Center SSO and turnkey AWS data source plugins. |
+| **[Sumo Logic](https://www.sumologic.com/)** | ~$1.7 Billion Valuation (Francisco Partners) | $3 / GB data ingested (Flex Plan) | Free Trial: 1 GB/day ingest limit (30-day trial) | Cloud-native log management, security analytics (SIEM), and operational metric dashboards. |
+| **[Chronosphere](https://chronosphere.io/)** | ~$1.6 Billion Valuation | ~$3,000 / month minimum commitment | 30-Day Managed Demo / Proof-of-Concept Trial | High-scale cloud-native observability with control plane metric reduction and cost optimization. |
+| **[Honeycomb](https://www.honeycomb.io/)** | ~$450 Million Valuation | $130 / month (Pro Plan, 100M events/mo) | Free Forever Tier: 20 Million events/month + unlimited users | High-cardinality event analysis and distributed tracing for debugging microservices. |
+| **[Coralogix](https://coralogix.com/)** | ~$400 Million Valuation | $0.60 / GB ingested (Logs), $0.15 / GB (Metrics) | 14-Day Free Trial (Full features, no credit card needed) | Real-time streaming analytics platform for logs, metrics, and traces without storage bottlenecks. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+### 🔥 Core Grafana Ecosystem
+
+- **[Grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+  **The de facto standard for open-source operational dashboards**, AGPL-3.0 licensed. Connects to 100+ data sources including Prometheus, Loki, Tempo, Elasticsearch, and PostgreSQL. Rich visualization library with alerting, annotations, and templating. Best for unified operational dashboards.
+
+- **[Grafana Loki](https://github.com/grafana/loki)** [![GitHub stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)  
+  **Horizontally scalable log aggregation system**, AGPL-3.0 licensed. Designed to be highly cost-effective by indexing labels rather than full text. Integrates seamlessly with Grafana for querying and visualization.
+
+- **[Grafana Tempo](https://github.com/grafana/tempo)** [![GitHub stars](https://img.shields.io/github/stars/grafana/tempo?style=social&color=white)](https://github.com/grafana/tempo/stargazers)  
+  **High-scale distributed tracing backend**, AGPL-3.0 licensed. Requires only object storage to operate and integrates with Grafana, Loki, and Prometheus.
+
+- **[Grafana Mimir](https://github.com/grafana/mimir)** [![GitHub stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
+  **Scalable long-term metrics storage**, AGPL-3.0 licensed. Provides Prometheus-compatible metric ingestion with multi-tenancy, high availability, and massive horizontal scale.
+
+- **[Grafana Pyroscope](https://github.com/grafana/pyroscope)** [![GitHub stars](https://img.shields.io/github/stars/grafana/pyroscope?style=social&color=white)](https://github.com/grafana/pyroscope/stargazers)  
+  **Continuous profiling platform**, AGPL-3.0 licensed. Offers CPU, memory, and I/O profiling with flame graphs directly inside Grafana.
+
+- **[Grafana Alloy](https://github.com/grafana/alloy)** [![GitHub stars](https://img.shields.io/github/stars/grafana/alloy?style=social&color=white)](https://github.com/grafana/alloy/stargazers)  
+  **OpenTelemetry collector distribution**, Apache-2.0 licensed. Vendor-neutral telemetry collector providing pipeline processing for metrics, logs, and traces.
+
+---
+
+### 📈 Metrics & Monitoring Databases
+
+- **[Netdata](https://github.com/netdata/netdata)** [![GitHub stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)  
+  **Real-time performance and health monitoring**, GPL-3.0 licensed. Provides per-second granularity with zero-configuration auto-discovery for servers and containers.
+
+- **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
+  **The CNCF de facto standard for metrics monitoring**, Apache-2.0 licensed. Pull-based time-series metrics collection with PromQL and alerting capabilities.
+
+- **[Thanos](https://github.com/thanos-io/thanos)** [![GitHub stars](https://img.shields.io/github/stars/thanos-io/thanos?style=social&color=white)](https://github.com/thanos-io/thanos/stargazers)  
+  **Highly available Prometheus setup with long-term storage**, Apache-2.0 licensed. Provides global query view across multiple Prometheus clusters and seamless S3 storage backup.
+
+- **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)  
+  **High-performance time-series database**, Apache-2.0 licensed. Drop-in Prometheus replacement with higher data compression and lower memory footprints.
+
+- **[InfluxDB](https://github.com/influxdata/influxdb)** [![GitHub stars](https://img.shields.io/github/stars/influxdata/influxdb?style=social&color=white)](https://github.com/influxdata/influxdb/stargazers)  
+  **Scalable time-series database**, MIT licensed. Purpose-built engine for high-cardinality operational metrics, IoT measurements, and real-time events.
+
+---
+
+### 🔍 Integrated Observability Platforms
+
+- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
+  **Native OpenTelemetry observability platform**, MIT/Apache-2.0 licensed. Single-pane application for logs, metrics, and traces as an open-source Datadog alternative.
+
+- **[OpenObserve](https://github.com/openobserve/openobserve)** [![GitHub stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)  
+  **Cloud-native observability engine**, AGPL-3.0 licensed. Single binary log, metric, and trace search engine with up to 140x lower storage costs.
+
+- **[Uptrace](https://github.com/uptrace/uptrace)** [![GitHub stars](https://img.shields.io/github/stars/uptrace/uptrace?style=social&color=white)](https://github.com/uptrace/uptrace/stargazers)  
+  **Open-source APM tool**, BSLA/AGPL-3.0 licensed. Uses OpenTelemetry to parse traces and metrics into pinpoint dashboard insights.
+
+---
+
+### 📊 Business Intelligence & Operational Dashboards
+
+- **[Apache Superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+  **Modern enterprise business intelligence platform**, Apache-2.0 licensed. Feature-rich SQL editor, interactive dashboard builder, and wide SQL data source support.
+
+- **[Metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)  
+  **Easy visual analytics and reporting tool**, AGPL-3.0 licensed. Allows team members to build charts and dashboard walls without knowing SQL.
+
+- **[Redash](https://github.com/getredash/redash)** [![GitHub stars](https://img.shields.io/github/stars/getredash/redash?style=social&color=white)](https://github.com/getredash/redash/stargazers)  
+  **SQL-centric operational reporting tool**, BSD-2-Clause licensed. Connect and query any data source, visualize results, and share interactive dashboards.
+
+- **[Appsmith](https://github.com/appsmithorg/appsmith)** [![GitHub stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers)  
+  **Open-source low-code framework**, Apache-2.0 licensed. Build internal operational dashboards and admin panels connecting to databases or REST APIs.
+
+---
+
+### ⚡ Distributed Tracing & Telemetry Collection
+
+- **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
+  **Vendor-neutral proxy for telemetry data**, Apache-2.0 licensed. Receives, processes, and exports telemetry (metrics, traces, logs) to Grafana, Prometheus, and vendor endpoints.
+
+- **[Jaeger Tracing](https://github.com/jaegertracing/jaeger)** [![GitHub stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)  
+  **CNCF open-source end-to-end distributed tracing**, Apache-2.0 licensed. Monitor complex microservice architecture transactions and latency bottlenecks.
+
+- **[Zipkin](https://github.com/openzipkin/zipkin)** [![GitHub stars](https://img.shields.io/github/stars/openzipkin/zipkin?style=social&color=white)](https://github.com/openzipkin/zipkin/stargazers)  
+  **Distributed tracing framework**, Apache-2.0 licensed. Helps gather timing data needed to troubleshoot latency problems in microservice architectures.
+
+---
+
+### 🛡️ Infrastructure & Network Dashboarding
+
+- **[Zabbix](https://github.com/zabbix/zabbix)** [![GitHub stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers)  
+  **Enterprise-class network and server monitoring platform**, AGPL-3.0 licensed. Real-time metrics collection, threshold alerting, and customizable dashboard widgets.
+
+- **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white)](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers)  
+  **Visualization user interface for OpenSearch**, Apache-2.0 licensed. Search and graph log analytics data with built-in security features.
+
+- **[Checkmk](https://github.com/Checkmk/checkmk)** [![GitHub stars](https://img.shields.io/github/stars/Checkmk/checkmk?style=social&color=white)](https://github.com/Checkmk/checkmk/stargazers)  
+  **Comprehensive IT infrastructure monitoring**, GPL-2.0 licensed. Automatic discovery of servers, applications, and networks with built-in Grafana data source plugins.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+1. Fork this repository. 🍴
+2. Add your suggested SaaS product or Open-Source project to the appropriate section in alphabetical or sorted order.
+3. Ensure links are working and descriptions are objective.
+4. Open a Pull Request with a short description of the addition. 🚀
+
+---
+
+## 💖 Support & Sponsorship
+
+If you found this curated list helpful for your DevOps, SRE, or infrastructure monitoring journey, consider supporting the project!
+
+- ⭐ **Star** this repository to help others discover it!
+- 🔀 **Fork** it to keep your own reference copy.
+- 📢 **Share** it with your fellow engineers and community!
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance via [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a community-curated list and does not constitute an explicit endorsement of any commercial platform or open-source software.
+- Operational metrics, logs, and traces contain sensitive infrastructure data. Ensure proper authentication, RBAC, and encryption when configuring dashboard solutions.
+- Licensing note: Core Grafana components operate under AGPL-3.0. Always verify license requirements for enterprise compliance.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Managed-Operational-Dashboarding-Grafana&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Managed-Operational-Dashboarding-Grafana&type=date&legend=top-left)
